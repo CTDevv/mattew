@@ -1,0 +1,11 @@
+html, body{
+    font-size: 33,3%;
+    font-family: 'Open Sans', sans-serif;
+    background: #ffffff;
+}
+/* header */
+
+    /* slider */
+.carousel-item{
+    background-size: cover ;
+}
