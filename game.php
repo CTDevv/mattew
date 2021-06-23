@@ -88,10 +88,11 @@ include 'dbconnect.php';
             </div>
             <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                 <div class="col">
-                    <div class="card h-100" data-aos="flip-left" data-aos-duration="500" data-aos-offset="300">
-                        <img src="images/Cover.jpg" class="card-img-top" alt="...">
+                    <div class="card h-100" style="border: none;" data-aos="flip-left" data-aos-duration="500"
+                        data-aos-offset="300">
+                        <img src="images/bg33.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title text-center"><a
+                            <h5 class=" text-center"><a
                                     href="https://drive.google.com/drive/folders/1pDQqhrDTd94nIHvYxEcMIwPfgixwA95F?usp=sharing">Deeprive</a>
                             </h5>
                         </div>

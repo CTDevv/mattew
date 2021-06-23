@@ -10,9 +10,7 @@ html, body{
     background-size: cover ;
 }
 
-.card-body{
-background-color: gold ;
-}
+
 
 .card-body h5 a{
     color: black;
@@ -20,5 +18,5 @@ background-color: gold ;
 }
 
 .card-body :hover{
-    color: grey;
+    color: rgb(0, 128, 117);
 }
