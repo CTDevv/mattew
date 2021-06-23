@@ -128,7 +128,7 @@ include 'dbconnect.php';
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-                        Terima kasih, pesan anda telah terkirim
+                        Terima kasih, pesan anda telah terkirim!
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                     <form name="kontak">
