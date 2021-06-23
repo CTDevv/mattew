@@ -9,3 +9,16 @@ html, body{
 .carousel-item{
     background-size: cover ;
 }
+
+.card-body{
+background-color: gold ;
+}
+
+.card-body h5 a{
+    color: black;
+    text-decoration: none;
+}
+
+.card-body :hover{
+    color: grey;
+}

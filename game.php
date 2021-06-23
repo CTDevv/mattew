@@ -78,76 +78,32 @@ include 'dbconnect.php';
     </nav>
 
 
-    <!-- //Header -->
-
-    <!-- main-slider -->
-    <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/Cover.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="images/EymiXr1WQAAI4Wf.jpeg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="images/FB_IMG_16165870687925569.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </section>
-
-    <section id="support">
+    <section id="game">
         <div class="container">
             <div class="row text-center mb-3">
-                <div class="col mt-5"> <br>
-                    <h2>Support Us!</h2>
+                <div class="col">
+                    <h2>Game</h2>
+                    <hr style="padding: -5px;" style="width: 150px;">
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-                        Terima kasih, pesan anda telah terkirim
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                <div class="col">
+                    <div class="card h-100" data-aos="flip-left" data-aos-duration="500" data-aos-offset="300">
+                        <img src="images/Cover.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><a
+                                    href="https://drive.google.com/drive/folders/1pDQqhrDTd94nIHvYxEcMIwPfgixwA95F?usp=sharing">Deeprive</a>
+                            </h5>
+                        </div>
                     </div>
-                    <form name="kontak">
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
-                        </div>
-                        <div class="mb-3">
-                            <label for="pesan" class="form-label">Pesan</label>
-                            <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
-                        <button class="btn btn-primary d-none btn-loading" type="button" disabled>
-                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                            Loading...
-                    </form>
                 </div>
-            </div>
-        </div>
+
     </section>
+
 </body>
 <footer>
     <!-- Footer -->
-    <footer class="text-center mt-3 text-lg-start  text-muted" style="background-color: #1e1e1e;">
+    <footer class="text-center mt-5  text-lg-start  text-muted" style="background-color: #1e1e1e;">
         <!-- Section: Social media -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 ">
 
@@ -203,8 +159,8 @@ include 'dbconnect.php';
             <!-- Section: Links  -->
 
             <!-- Copyright -->
-            <div class="text-center p-4 bg-dark">
-                <p style="color: #FAE8E0;">© 2021, CTDEV Teams | All rights reserved. </p>
+            <div class="mt-2 text-center p-4 bg-dark">
+                <p class="mt-4" style="color: #FAE8E0;">© 2021, CTDEV Teams | All rights reserved. </p>
             </div>
             <!-- Copyright -->
         </footer>
